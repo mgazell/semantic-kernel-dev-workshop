@@ -53,7 +53,7 @@ This also uses the `AddChatCompletionService()` extension method we've created i
 var chatCompletionService = app.Services.GetRequiredService<IChatCompletionService>();
 ```
 
-Next we need to create the settings to use for the LLM calls. On line 21, we added a sample prompt that you can change to whatever you would like - or you can leave it as it is.
+On line 21, we added a sample prompt that you can change to whatever you would like - or you can leave it as it is. Next we need to create the settings to use for the LLM calls.
 
 4. Replace **lines 23 and 24**, with the following lines of code:
 
